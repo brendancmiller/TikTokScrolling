@@ -1,24 +1,25 @@
 //
 //  ContentView.swift
-//  TikTokScrolling
+//  TiktokScrolling
 //
-//  Created by Brendan Miller on 2026-01-13.
+//  Created by Brendan Miller on 2025-11-05.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    //@State private var posts: [Post]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            FeedView(posts: PostsLoader.loadPosts())
+            
         }
-        .padding()
     }
+    
+
 }
 
+
 #Preview {
-    ContentView()
+    FeedView(posts: PostsLoader.loadPosts())
 }

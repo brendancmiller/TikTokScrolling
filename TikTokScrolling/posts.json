@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "videoFileName": "video1",
+      "title": "Amazing Sunset"
+    },
+    {
+      "id": "2",
+      "videoFileName": "video2",
+      "title": "City Lights"
+    },
+    {
+      "id": "3",
+      "videoFileName": "video3",
+      "title": "Ocean Waves"
+    },
+    {
+      "id": "4",
+      "videoFileName": "video4",
+      "title": "Mountain View"
+    },
+    {
+      "id": "5",
+      "videoFileName": "video5",
+      "title": "Street Art"
+    },
+    {
+      "id": "6",
+      "videoFileName": "video6",
+      "title": "Night Sky"
+    }
+  ]
+}
